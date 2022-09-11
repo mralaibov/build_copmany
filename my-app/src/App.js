@@ -4,7 +4,7 @@ import React from "react";
 import Footer from "./sections/footer/Footer";
 import Main from "./sections/main/Main";
 
-function App() {
+const App = () => {
     return (
         <StyledApp className="App">
 
