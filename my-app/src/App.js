@@ -15,6 +15,7 @@ function App() {
             <Footer/>
 
             {/*example*/}
+
             {/*<header>*/}
             {/*    <nav>*/}
             {/*        <a href="#">Text</a>*/}
