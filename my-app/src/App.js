@@ -5,8 +5,7 @@ import Footer from "./sections/footer/Footer";
 import Main from "./sections/main/Main";
 
 const App = () => {
-    return (
-        <StyledApp className="App">
+    return <StyledApp className="App">
 
             <Header/>
 
@@ -23,7 +22,6 @@ const App = () => {
             {/*</header>*/}
 
         </StyledApp>
-    );
 }
 
 export default App;
