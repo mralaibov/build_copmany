@@ -1,4 +1,3 @@
-import './App.css';
 import {StyledApp} from "./StyledApp";
 import Header from "./sections/header/Header";
 import React from "react";
