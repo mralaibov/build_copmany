@@ -4,9 +4,9 @@ import Container from "../../ui-components/container/Container";
 
 const Footer = () => {
     return (
-      <Container>
-        <StyledFooter>
 
+        <StyledFooter>
+            <Container>
                 <div className="Footer-inner clear">
 
                     <div
@@ -92,12 +92,10 @@ const Footer = () => {
                                       data-block-type="2"
                                       id="block-yui_3_17_2_1_1531949363570_2102">
                                         <div className="sqs-block-content"><p
-                                          style="text-align:center;white-space:pre-wrap;"
                                           className=""
                                           data-rte-preserve-empty="true"></p><p
                                           className=""
-                                          data-rte-preserve-empty="true"
-                                          style="white-space:pre-wrap;"></p>
+                                          data-rte-preserve-empty="true"></p>
 
 
                                         </div>
@@ -120,9 +118,8 @@ const Footer = () => {
                     </div>
 
                 </div>
-
+            </Container>
         </StyledFooter>
-      </Container>
     );
 };
 

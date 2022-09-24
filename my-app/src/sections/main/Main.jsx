@@ -4,11 +4,11 @@ import Container from "../../ui-components/container/Container";
 
 const Main = () => {
     return (
-      <Container>
-        <StyledMain>
+      <StyledMain>
+        <Container>
 
-        </StyledMain>
-      </Container>
+        </Container>
+      </StyledMain>
     );
 };
 
