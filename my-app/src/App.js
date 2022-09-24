@@ -13,14 +13,6 @@ const App = () => {
 
             <Footer/>
 
-            {/*example*/}
-
-            {/*<header>*/}
-            {/*    <nav>*/}
-            {/*        <a href="#">Text</a>*/}
-            {/*    </nav>*/}
-            {/*</header>*/}
-
         </StyledApp>
 }
 
