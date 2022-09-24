@@ -3,7 +3,7 @@ import {StyledContainer} from "./StyledContainer";
 
 const Container = ({children}) => {
   return (
-    <StyledContainer>
+    <StyledContainer className="container">
       {children}
     </StyledContainer>
   );
