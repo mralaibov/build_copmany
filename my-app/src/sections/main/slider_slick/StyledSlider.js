@@ -20,5 +20,4 @@ export const StyledSlider =  styled.main`
       opacity: 100%;
     }
   }
-  
 `
