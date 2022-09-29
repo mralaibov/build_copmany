@@ -2,19 +2,20 @@ import {StyledApp} from "./StyledApp";
 import Header from "./sections/header/Header";
 import React from "react";
 import Footer from "./sections/footer/Footer";
-import Main from "./sections/main/Main";
+import Routers from "./routes/Routers";
+import {BrowserRouter} from "react-router-dom";
 
 const App = () => {
-    return <StyledApp className="App">
+    return (
+        <StyledApp className="App">
 
             <Header/>
 
-            <Main/>
-
+            <Routers/>
 
             <Footer/>
 
         </StyledApp>
-}
+)};
 
 export default App;
