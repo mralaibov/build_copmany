@@ -4,6 +4,7 @@ import Container from "../../ui-components/container/Container";
 import MainInfo from "./main_info/MainInfo";
 import MainForm from "./main_form/MainForm";
 import Slider from "./slider_slick/Slider";
+import ImgColab from "./img_colab/ImgColab";
 import MainBanner from "./main_banner/MainBanner";
 
 const Main = () => {
@@ -15,6 +16,7 @@ const Main = () => {
         <Container>
 
             <MainInfo/>
+            <ImgColab/>
 
             <MainForm/>
 

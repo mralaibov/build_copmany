@@ -25,23 +25,23 @@ export default class AsNavFor extends Component {
                     asNavFor={this.state.nav2}
                     ref={slider => (this.slider1 = slider)}
                 >
-                    <div>
-                        <img src="https://images.squarespace-cdn.com/content/v1/5d1252fbd971ca0001522a76/1647633986185-V11SDI91LPWW7R02TPFX/Screen+Shot+2022-03-18+at+1.56.59+PM.png?format=1500w"/>
+                    <div className="op_never">
+                        <img src="https://images.squarespace-cdn.com/content/v1/5d1252fbd971ca0001522a76/1647633986185-V11SDI91LPWW7R02TPFX/Screen+Shot+2022-03-18+at+1.56.59+PM.png?format=800w" alt="company_photo"/>
                     </div>
-                    <div>
-                        <img src="https://images.squarespace-cdn.com/content/v1/5d1252fbd971ca0001522a76/1647633986185-V11SDI91LPWW7R02TPFX/Screen+Shot+2022-03-18+at+1.56.59+PM.png?format=1500w"/>
+                    <div className="op_never">
+                        <img src="https://images.squarespace-cdn.com/content/v1/5d1252fbd971ca0001522a76/1647633986185-V11SDI91LPWW7R02TPFX/Screen+Shot+2022-03-18+at+1.56.59+PM.png?format=800w" alt="company_photo"/>
                     </div>
-                    <div>
-                        <img src="https://images.squarespace-cdn.com/content/v1/5d1252fbd971ca0001522a76/1647633986185-V11SDI91LPWW7R02TPFX/Screen+Shot+2022-03-18+at+1.56.59+PM.png?format=1500w"/>
+                    <div className="op_never">
+                        <img src="https://images.squarespace-cdn.com/content/v1/5d1252fbd971ca0001522a76/1647633986185-V11SDI91LPWW7R02TPFX/Screen+Shot+2022-03-18+at+1.56.59+PM.png?format=800w" alt="company_photo"/>
                     </div>
-                    <div>
-                        <img src="https://images.squarespace-cdn.com/content/v1/5d1252fbd971ca0001522a76/1647633986185-V11SDI91LPWW7R02TPFX/Screen+Shot+2022-03-18+at+1.56.59+PM.png?format=1500w"/>
+                    <div className="op_never">
+                        <img src="https://images.squarespace-cdn.com/content/v1/5d1252fbd971ca0001522a76/1647633986185-V11SDI91LPWW7R02TPFX/Screen+Shot+2022-03-18+at+1.56.59+PM.png?format=800w" alt="company_photo"/>
                     </div>
-                    <div>
-                        <img src="https://images.squarespace-cdn.com/content/v1/5d1252fbd971ca0001522a76/1647633986185-V11SDI91LPWW7R02TPFX/Screen+Shot+2022-03-18+at+1.56.59+PM.png?format=1500w"/>
+                    <div className="op_never">
+                        <img src="https://images.squarespace-cdn.com/content/v1/5d1252fbd971ca0001522a76/1647633986185-V11SDI91LPWW7R02TPFX/Screen+Shot+2022-03-18+at+1.56.59+PM.png?format=800w" alt="company_photo"/>
                     </div>
-                    <div>
-                        <img src="https://images.squarespace-cdn.com/content/v1/5d1252fbd971ca0001522a76/1647633986185-V11SDI91LPWW7R02TPFX/Screen+Shot+2022-03-18+at+1.56.59+PM.png?format=1500w"/>
+                    <div className="op_never">
+                        <img src="https://images.squarespace-cdn.com/content/v1/5d1252fbd971ca0001522a76/1647633986185-V11SDI91LPWW7R02TPFX/Screen+Shot+2022-03-18+at+1.56.59+PM.png?format=800w" alt="company_photo"/>
                     </div>
                 </Slider>
                 <Slider
@@ -52,22 +52,22 @@ export default class AsNavFor extends Component {
                     focusOnSelect={true}
                 >
                     <div>
-                        <img src="https://images.squarespace-cdn.com/content/v1/5d1252fbd971ca0001522a76/1589315918500-YEF3C8KPJ22SPMIKJEH2/IMG_7078.jpg?format=300w"/>
+                        <img src="https://images.squarespace-cdn.com/content/v1/5d1252fbd971ca0001522a76/1589315918500-YEF3C8KPJ22SPMIKJEH2/IMG_7078.jpg?format=300w" alt="company_details"/>
                     </div>
                     <div>
-                        <img src="https://images.squarespace-cdn.com/content/v1/5d1252fbd971ca0001522a76/1589315918500-YEF3C8KPJ22SPMIKJEH2/IMG_7078.jpg?format=300w"/>
+                        <img src="https://images.squarespace-cdn.com/content/v1/5d1252fbd971ca0001522a76/1589315918500-YEF3C8KPJ22SPMIKJEH2/IMG_7078.jpg?format=300w" alt="company_details"/>
                     </div>
                     <div>
-                        <img src="https://images.squarespace-cdn.com/content/v1/5d1252fbd971ca0001522a76/1589315918500-YEF3C8KPJ22SPMIKJEH2/IMG_7078.jpg?format=300w"/>
+                        <img src="https://images.squarespace-cdn.com/content/v1/5d1252fbd971ca0001522a76/1589315918500-YEF3C8KPJ22SPMIKJEH2/IMG_7078.jpg?format=300w" alt="company_details"/>
                     </div>
                     <div>
-                        <img src="https://images.squarespace-cdn.com/content/v1/5d1252fbd971ca0001522a76/1589315918500-YEF3C8KPJ22SPMIKJEH2/IMG_7078.jpg?format=300w"/>
+                        <img src="https://images.squarespace-cdn.com/content/v1/5d1252fbd971ca0001522a76/1589315918500-YEF3C8KPJ22SPMIKJEH2/IMG_7078.jpg?format=300w" alt="company_details"/>
                     </div>
                     <div>
-                        <img src="https://images.squarespace-cdn.com/content/v1/5d1252fbd971ca0001522a76/1589315918500-YEF3C8KPJ22SPMIKJEH2/IMG_7078.jpg?format=300w"/>
+                        <img src="https://images.squarespace-cdn.com/content/v1/5d1252fbd971ca0001522a76/1589315918500-YEF3C8KPJ22SPMIKJEH2/IMG_7078.jpg?format=300w" alt="company_details"/>
                     </div>
                     <div>
-                        <img src="https://images.squarespace-cdn.com/content/v1/5d1252fbd971ca0001522a76/1589315918500-YEF3C8KPJ22SPMIKJEH2/IMG_7078.jpg?format=300w"/>
+                        <img src="https://images.squarespace-cdn.com/content/v1/5d1252fbd971ca0001522a76/1589315918500-YEF3C8KPJ22SPMIKJEH2/IMG_7078.jpg?format=300w" alt="company_details"/>
                     </div>
                 </Slider>
             </StyledSlider>
