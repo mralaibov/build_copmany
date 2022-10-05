@@ -1,9 +1,6 @@
 import styled from "styled-components";
 
 export const StyledMainInfo = styled.div`
-  position: relative;
-  z-index: 1;
-  background-color: #fff;
   .sec_info {
     color: white;
     padding: 90px 50px;

@@ -5,9 +5,6 @@ export const StyledMainForm = styled.div`
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  position: relative;
-  z-index: 1;
-  background-color: #fff;
   label {
     width: 48%;
     &:nth-child(2n) {

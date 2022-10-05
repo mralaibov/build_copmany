@@ -13,9 +13,10 @@ const Main = () => {
 
         <MainBanner/>
 
-        <Container>
+        <Container mainPage>
 
             <MainInfo/>
+
             <ImgColab/>
 
             <MainForm/>

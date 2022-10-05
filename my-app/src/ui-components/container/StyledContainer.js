@@ -5,4 +5,9 @@ export const StyledContainer = styled.div`
   margin-left: auto;
   margin-right: auto;
   padding: 0 60px;
+  &.mainPage {
+    position: relative;
+    z-index: 1;
+    background-color: #fff;
+  }
 `

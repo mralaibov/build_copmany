@@ -1,9 +1,9 @@
 import React from 'react';
 import {StyledContainer} from "./StyledContainer";
 
-const Container = ({children}) => {
+const Container = ({mainPage, children}) => {
   return (
-    <StyledContainer className="container">
+    <StyledContainer className={`container ${mainPage && 'mainPage'}` }>
       {children}
     </StyledContainer>
   );
