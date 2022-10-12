@@ -1,12 +1,14 @@
 import React from 'react';
 import {StyledHeader} from "./StyledHeader";
 import Container from "../../ui-components/container/Container";
-import { Link } from "react-router-dom";
+import {Link, useLocation} from "react-router-dom";
 
 const Header = () => {
 
+    const location = useLocation();
+
     return (
-        <StyledHeader>
+        <StyledHeader isBlackText={location.pathname !== '/' && true}>
             <Container>
                 <nav className="Header-nav Header-nav--primary" data-nc-element="primary-nav" data-content-field="navigation">
                     <Link to="/" className="Header-branding" data-nc-element="branding" data-content-field="site-title">

@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const StyledSlider =  styled.main`
+export const StyledSlider = styled.div`
   .slick-prev:before,.slick-next:before {
     color: black;
   }

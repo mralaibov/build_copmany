@@ -13,6 +13,7 @@ export const StyledFooter =  styled.footer`
     align-items: center;
     justify-content: center;
     text-transform: uppercase;
+    flex-wrap: wrap;
   }
   .blue {
     color: #52c2c8;
@@ -25,5 +26,10 @@ export const StyledFooter =  styled.footer`
     flex-direction: column;
     align-items: center;
     justify-content: center;
+  }
+  @media (max-width: 769px) {
+    .footer__top {
+      margin-bottom: 15px;
+    }
   }
 `

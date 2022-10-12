@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import {theme} from "../../../theme";
+import buildBanner from '../../../assets/buildBanner.jpeg'
 
 export const StyledMainBanner = styled.div`
   width: 100%;
@@ -52,7 +53,7 @@ export const StyledMainBanner = styled.div`
     left: 0;
     width: 100%;
     min-height: 100vh;
-    background-image: url('https://images.squarespace-cdn.com/content/v1/5d1252fbd971ca0001522a76/1643315309798-EVQ0HH73TNOTPAE4Y9G7/thumbnail_login-bg-1.jpeg');
+    background-image: url(${buildBanner});
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: 100% 120%;

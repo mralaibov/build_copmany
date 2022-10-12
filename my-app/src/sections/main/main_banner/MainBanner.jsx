@@ -3,7 +3,7 @@ import {StyledMainBanner} from "./StyledMainBanner";
 
 const MainBanner = () => {
 
-  const [backgroundPos, setBackgroundPos] = useState(100);
+  const [backgroundPos, setBackgroundPos] = useState(0);
 
   window.addEventListener(
     'scroll',
